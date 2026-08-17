@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff7fb;
+  text-align: center;
+}
+
+h1 {
+  color: #b03060;
+  margin-top: 80px;
+  font-size: 45px;
+}
+
+p {
+  color: #555;
+  font-size: 20px;
+}
+.inicio {
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #fff0f6, #fce4ec);
+}
+
+.inicio h1 {
+  font-size: 52px;
+  margin-bottom: 15px;
+}
+
+.inicio p {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.boton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 25px;
+  background-color: #b03060;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.boton:hover {
+  background-color: #8f254d;
+}
+.servicios {
+  padding: 50px 20px;
+  background-color: white;
+}
+
+.servicios h2 {
+  color: #b03060;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.servicio {
+  display: inline-block;
+  vertical-align: top;
+  width: 250px;
+  min-height: 130px;
+  background-color: #fff7fb;
+  margin: 10px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.servicio h3 {
+  color: #b03060;
+}
+.nosotros {
+  padding: 50px 20px;
+  background-color: #fff7fb;
+}
+
+.nosotros h2 {
+  color: #b03060;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.nosotros p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+.contacto {
+  padding: 50px 20px;
+  background-color: white;
+}
+
+.contacto h2 {
+  color: #b03060;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.contacto p {
+  margin-bottom: 20px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: white;
+}
+
+.menu h2 {
+  color: #b03060;
+  margin: 0;
+}
+
+.menu nav a {
+  color: #555;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.menu nav a:hover {
+  color: #b03060;
+}
+.footer {
+  background-color: #b03060;
+  padding: 25px 20px;
+  text-align: center;
+}
+
+.footer p {
+  color: white;
+  font-size: 14px;
+  margin: 5px 0;
+}
+@media (max-width: 768px) {
+
+  .menu {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .menu nav {
+    margin-top: 15px;
+  }
+
+  .menu nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .inicio h1 {
+    font-size: 38px;
+  }
+
+  .inicio p {
+    font-size: 18px;
+  }
+
+  .servicio {
+    width: 80%;
+    max-width: 300px;
+  }
+}
